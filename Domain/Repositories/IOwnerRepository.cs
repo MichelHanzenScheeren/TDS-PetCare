@@ -9,7 +9,7 @@ namespace PetCare.Domain.Repositories
         Owner GetByEmail(string email);
         void Create(Owner owner);
         void Update(Owner owner);
-        void Delete(Guid Id);
+        void Delete(Owner owner);
 
     }
 }
