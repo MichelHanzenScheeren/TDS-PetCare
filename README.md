@@ -1,0 +1,1 @@
+Repositório com implementações das atividades práticas realizadas na disciplina de Tecnologia de Desenvolvimento de Sistemas do curso de Ciência da Computação da Universidade Tecnológica Federal do Paraná UTFPR - Medianeira durante o semestre 2020/2, iniciado em 15/02/2021.
