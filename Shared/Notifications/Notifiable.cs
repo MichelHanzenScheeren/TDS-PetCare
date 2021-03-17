@@ -7,6 +7,8 @@ namespace PetCare.Shared.Notifications
         private readonly List<Notification> _notifications;
         public IReadOnlyCollection<Notification> Notifications => _notifications;
 
+        public bool IsValid() => _notifications.Count == 0;
+
         protected Notifiable() => _notifications = new List<Notification>();
 
         public void AddNotification(string key, string message)
@@ -26,7 +28,5 @@ namespace PetCare.Shared.Notifications
         {
             AddNotifications(item.Notifications);
         }
-
-        public bool IsValid() => _notifications.Count == 0;
     }
 }

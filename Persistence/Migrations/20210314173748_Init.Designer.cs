@@ -10,8 +10,8 @@ using PetCare.Persistence.Data;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(PetCareDataContext))]
-    [Migration("20210307180358_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20210314173748_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
